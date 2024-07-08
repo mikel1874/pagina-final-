@@ -1,0 +1,112 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/011/337/251/large/paperblue-net-sketch-ca-a.jpg?1529052274"); /* Nueva imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el cuadro de texto */
+.text-box, .title-box { /* Aplica el estilo a ambas cajas */
+    background-color: rgba(255, 255, 255, 0.7); /* Blanco traslucido */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 100%; /* El cuadro ocupa todo el ancho */
+    text-align: center;
+}
+
+.title-box h1 { /* Estilo para el título */
+    font-family: 'Times New Roman', serif;
+    font-size: 4em; /* Aumenta el tamaño de la letra del título */
+    line-height: 1.2; 
+    color: black; /* Letra negra */
+}
+
+.text-box p { /* Estilo para el párrafo */
+    font-family: 'Times New Roman', serif;
+    font-size: 1.4em; /* Aumenta el tamaño de la letra del párrafo */
+    line-height: 1.5;
+    color: black; /* Letra negra */
+    margin-bottom: 20px;
+}
+
+/* Estilo para la imagen de vivienda precaria */
+.image-vivienda {
+    max-width: 50%; /* La imagen ocupará el 50% del ancho */
+    margin: 20px auto; /* Margen automático para centrar la imagen */
+}
+
+/* Estilo para el recuadro del título */
+.title-box {
+    width: 100%;
+    text-align: center;
+}
+
+/* Seccion para las logos */
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.logos img {
+    margin: 0 20px; /* Espacio entre las imágenes */
+    max-width: 150px; /* Ancho máximo de las imágenes */
+}
+
+.logo-unmsm {
+    /* Si necesitas un estilo específico para el logo UNMSM */
+}
+
+.logo-civil {
+    /* Si necesitas un estilo específico para el logo Ingeniería Civil */
+}
